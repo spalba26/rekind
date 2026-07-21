@@ -1,0 +1,21 @@
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Windows y otros sistemas
+Thumbs.db
+.DS_Store
+
+# Backend futuro
+backend/.venv/
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.ruff_cache/
+*.pyc
+
+# Cobertura de pruebas
+coverage/
